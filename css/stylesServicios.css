@@ -1,0 +1,157 @@
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+/* NavBar */
+.name-bank {
+  letter-spacing: 0.3625rem;
+}
+.navbar .nav-link {
+  color: white;
+
+  transition: 0.2s;
+}
+.navbar {
+  background-color: #e28a43 !important;
+}
+
+a.nav-link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid white;
+}
+.iconHamb {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-fixed {
+  background-color: #e28a43 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* transition: all 0.6s;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); */
+}
+
+/* Estilos para el titulo y descripcion de servicios */
+.container-titulo {
+    margin-top: 150px;
+}
+.TituloH1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  
+}
+.tituloh6 {
+    color: #646464;
+    text-align: justify;
+}
+.TituloH1 b {
+  color: #000000;
+}
+.ayuda {
+  padding-left: 100px;
+}
+
+.contenedor-help {
+  margin: 15px 5px;
+}
+.contenedor-help p {
+  margin: 0;
+}
+.transparent-ayuda:hover {
+  background-color: rgba(185, 113, 18, 0.1);
+}
+.contenedor-pagos p {
+  margin: 0;
+}
+
+.btn-transparent {
+  border: none;
+  border-radius: 5px;
+  color: #eb962d;
+  background: transparent;
+  padding: 7px;
+  width: 160px;
+  transition: background-color 0.3s;
+}
+.btn-transparent:hover {
+  background-color: rgba(185, 113, 18, 0.1);
+}
+.btn-transparent:active {
+  animation: gradient 200ms;
+  background: rgba(60, 242, 248, 0.3);
+  color: #08c6ab;
+  box-shadow: none;
+}
+@keyframes gradient {
+  0% {
+    background: radial-gradient(
+      circle at center,
+      rgba(255, 125, 125, 0) 0%,
+      #08c6ab 0%,
+      #08c6ab 100%
+    );
+  }
+  25% {
+    background: radial-gradient(
+      circle at center,
+      rgba(60, 242, 248, 0.3) 24%,
+      #08c6ab 25%,
+      #08c6ab 100%
+    );
+  }
+  50% {
+    background: radial-gradient(
+      circle at center,
+      rgba(60, 242, 248, 0.5) 49%,
+      #08c6ab 50%,
+      #08c6ab 100%
+    );
+  }
+  75% {
+    background: radial-gradient(
+      circle at center,
+      rgba(60, 242, 248, 0.8) 74%,
+      #08c6ab 75%,
+      #08c6ab 100%
+    );
+  }
+  100% {
+    color: #fff;
+    background: radial-gradient(
+      circle at center,
+      rgb(83, 240, 219) 99%,
+      #08c6ab 100%,
+      #08c6ab 100%
+    );
+  }
+}
+
+/* card de la lista de servicios */
+
+.card-info-salas {
+    margin-top: 50px;
+}
+.card {
+    border: 1px solid #eb962d;
+    width: 14rem;
+}
+
+.cat img{
+    width: 100%;
+    background-size: 100% auto;
+}
+
+.card-title {
+    color: #e26e43;
+}
+
+
+
+/*footer styles*/
+
+.footer-container {
+    background-color: #f5be7a;
+    margin-top: 500px;
+  }
