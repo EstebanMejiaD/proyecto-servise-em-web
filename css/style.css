@@ -8,7 +8,7 @@
 }
 .navbar .nav-link {
   color: white;
- 
+
   transition: 0.2s;
 }
 
@@ -17,12 +17,10 @@ a.nav-link:hover {
   border-bottom: 2px solid white;
 }
 .iconHamb {
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 .navbar-fixed {
   background-color: #e28a43;
@@ -66,40 +64,35 @@ header {
 
 /* imagen principal */
 .container-imagenPrincipal {
-    margin: 0;
-    width: 400px;
+  margin: 0;
+  width: 400px;
 }
 .container-imagenPrincipal img {
-    width: 100%;
-    
+  width: 100%;
 }
 @media (max-width: 999px) {
-    .container-imagenPrincipal {
-        width: 330px;
-    }
+  .container-imagenPrincipal {
+    width: 330px;
   }
-  @media (max-width: 770px) {
-    .container-imagenPrincipal {
-        display: none;
-    }
+}
+@media (max-width: 770px) {
+  .container-imagenPrincipal {
+    display: none;
   }
+}
 
 .wave {
   position: relative;
 
   padding-top: 10rem;
 
-  /* background: rgb(5,25,35);
-    background: 
-    linear-gradient(270deg, 
-    rgba(5,25,35,1) 0%, 
-    rgba(0,100,148,1) 48%, 
-    rgba(0,166,251,1) 100%); */
+  
   background: rgb(226, 110, 67);
   background: linear-gradient(
     90deg,
-    rgba(226, 110, 67, 1) 31%,
-    rgba(248, 206, 14, 1) 66%
+    rgba(226, 110, 67, 1) 40%,
+    rgba(235, 150, 45, 1) 58%,
+    rgba(248, 206, 14, 1) 77%
   );
 }
 .wave::before {
@@ -143,11 +136,11 @@ section {
 
 /* about and services */
 .services-section {
-   padding-top:82px;
+  padding-top: 82px;
 }
 
 .card-servicios {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .about .member {
@@ -188,8 +181,6 @@ section {
   font-size: 14px;
 }
 
-
-
 .about .member a:hover {
   background: #0061f2;
   color: white;
@@ -206,5 +197,4 @@ section {
 
 .footer-container {
   background-color: #f5be7a;
-  
 }

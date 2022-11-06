@@ -34,17 +34,17 @@ a.nav-link:hover {
 }
 
 /* Estilos para el titulo y descripcion de servicios */
+
 .container-titulo {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 .TituloH1 {
   font-weight: 700;
   font-size: 2.5rem;
-  
 }
 .tituloh6 {
-    color: #646464;
-    text-align: justify;
+  color: #646464;
+  text-align: justify;
 }
 .TituloH1 b {
   color: #000000;
@@ -131,27 +131,65 @@ a.nav-link:hover {
 /* card de la lista de servicios */
 
 .card-info-salas {
-    margin-top: 50px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: #000000;
+}
+.card-info-salas :hover {
+  color: #000000;
 }
 .card {
-    border: 1px solid #eb962d;
-    width: 14rem;
+  border: 1px solid #eb962d;
+  width: 14rem;
 }
 
-.cat img{
-    width: 100%;
-    background-size: 100% auto;
+.cat img {
+  width: 100%;
+  background-size: 100% auto;
 }
 
 .card-title {
-    color: #e26e43;
+  color: #e26e43;
 }
 
+/* que incluye y que no incluye */
+.container-total-incluye {
+  border: 1px solid #999;
+}
+
+.incluye-no h5 {
+  text-align: center;
+}
+
+/* Boton para solicitar el servicio*/
+.container-btn-solicitar {
+  text-align: center;
+}
+
+
+.btn-solicitar {
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background: #e26e43;
+  color: #fff;
+  padding: 8px 20px;
+  transition: all 0.6s;
+  margin-right: 5px ;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.btn-solicitar:hover {
+ color: #fff;
+ background: #fa946e;
+
+}
 
 
 /*footer styles*/
 
 .footer-container {
-    background-color: #f5be7a;
-    margin-top: 500px;
-  }
+  background-color: #f5be7a;
+  margin-top: 500px;
+}
